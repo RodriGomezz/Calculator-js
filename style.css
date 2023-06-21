@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    background: rgb(9, 105, 121);
+    background: linear-gradient(90deg, rgba(9, 105, 121, 1) 39%, rgba(0, 78, 255, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+}
+
+.calculator {
+    background-color: rgb(17, 17, 17);
+    padding: 15px 15px;
+    border-radius: 13px;
+}
+
+input {
+    text-align: right;
+    width: 270px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 7px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-color: rgb(17, 17, 17);
+}
+
+button {
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+
+#equal {
+    background-color: aqua;
+    color: black;
+}
+
+#button1 {
+    background-color: rgb(41, 41, 41);
+}
+
+button:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+#equal:hover {
+    background-color: rgb(10, 153, 153);
+}
+
+#button1:hover {
+    background-color: rgb(59, 59, 59);
+}
